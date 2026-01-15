@@ -1,0 +1,111 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "FitPay.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Assinatura/cadastrar-completo": {
+      "post": {
+        "tags": [
+          "Assinatura"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CadastroAlunoCompletoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CadastroAlunoCompletoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CadastroAlunoCompletoDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Assinatura/listar-todos": {
+      "get": {
+        "tags": [
+          "Assinatura"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BandeiraCartao": {
+        "enum": [
+          "Visa",
+          "Mastercard",
+          "Elo"
+        ],
+        "type": "string"
+      },
+      "CadastroAlunoCompletoDto": {
+        "type": "object",
+        "properties": {
+          "nomeAluno": {
+            "type": "string",
+            "nullable": true
+          },
+          "cpf": {
+            "type": "string",
+            "nullable": true
+          },
+          "metodoPagamento": {
+            "$ref": "#/components/schemas/TipoPagamento"
+          },
+          "valorMensalidade": {
+            "type": "number",
+            "format": "double"
+          },
+          "tipoPlano": {
+            "type": "string",
+            "nullable": true
+          },
+          "quatroUltimosDigitos": {
+            "type": "string",
+            "nullable": true
+          },
+          "bandeira": {
+            "$ref": "#/components/schemas/BandeiraCartao"
+          },
+          "tokenPagamento": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TipoPagamento": {
+        "enum": [
+          "DebitoAutomatico"
+        ],
+        "type": "string"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Assinatura"
+    }
+  ]
+}

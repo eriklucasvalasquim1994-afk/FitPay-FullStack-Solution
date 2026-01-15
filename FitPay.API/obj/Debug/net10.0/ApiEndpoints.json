@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "FitPay.API.Controllers.AssinaturaController",
+    "Method": "Cadastrar",
+    "RelativePath": "Assinatura/cadastrar-completo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "FitPay.Application.DTOs.CadastroAlunoCompletoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitPay.API.Controllers.AssinaturaController",
+    "Method": "Listar",
+    "RelativePath": "Assinatura/listar-todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
