@@ -1,0 +1,17 @@
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\bin\Debug\net10.0\FitPay.Application.deps.json
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\bin\Debug\net10.0\FitPay.Application.dll
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\bin\Debug\net10.0\FitPay.Application.pdb
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\bin\Debug\net10.0\FitPay.Domain.dll
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\bin\Debug\net10.0\FitPay.Infrastructure.dll
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\bin\Debug\net10.0\FitPay.Domain.pdb
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\bin\Debug\net10.0\FitPay.Infrastructure.pdb
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\obj\Debug\net10.0\FitPay.Application.csproj.AssemblyReference.cache
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\obj\Debug\net10.0\FitPay.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\obj\Debug\net10.0\FitPay.Application.AssemblyInfoInputs.cache
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\obj\Debug\net10.0\FitPay.Application.AssemblyInfo.cs
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\obj\Debug\net10.0\FitPay.Application.csproj.CoreCompileInputs.cache
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\obj\Debug\net10.0\FitPay.A.2AF94D14.Up2Date
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\obj\Debug\net10.0\FitPay.Application.dll
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\obj\Debug\net10.0\refint\FitPay.Application.dll
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\obj\Debug\net10.0\FitPay.Application.pdb
+C:\Users\Aline\source\repos\FitPay\FitPay.Application\obj\Debug\net10.0\ref\FitPay.Application.dll
