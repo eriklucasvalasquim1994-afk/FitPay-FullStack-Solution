@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FitPay.API/FitPay.API.csproj" />
+  <Project Path="FitPay.Application/FitPay.Application.csproj" />
+  <Project Path="FitPay.Domain/FitPay.Domain.csproj" />
+  <Project Path="FitPay.Infrastructure/FitPay.Infrastructure.csproj" />
+</Solution>
